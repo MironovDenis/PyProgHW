@@ -15,14 +15,8 @@
 <class 'NoneType'>
 """
 
-a = 5
-b = 'Hello!'
-c = 0.155
-d = False
-e = None
-print(f'Задан список элементов: [{a}, {b}, {c}, {d}, {e}]')
-print(f'Элемент {a} имеет {type(a)}')
-print(f'Элемент {b} имеет {type(b)}')
-print(f'Элемент {c} имеет {type(c)}')
-print(f'Элемент {d} имеет {type(d)}')
-print(f'Элемент {e} имеет {type(e)}')
+new_list = [10, "Hello!", 7.62, False, None]
+print(f"Задан следующий список: {new_list}")
+for i in range(len(new_list)):
+    print(f"Элемент [{new_list[i]}] является {type(new_list[i])}")
+
